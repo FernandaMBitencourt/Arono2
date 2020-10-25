@@ -5,7 +5,7 @@ var tab = document.getElementById('seltab')
     if (num.value.length == 0 ) {
      window.alert('[ERRO] Por favor , digite um numero!')
     }else {
-        tab.innerHTML = ""  // Essa execucao e o mesmo que Limpatela da logica de programacao. //
+        tab.innerHTML = ""  
         var n = Number(num.value)
         for(var i = 1; i <= 10; i++ ){
             let item = document.createElement('option')
